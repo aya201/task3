@@ -1,0 +1,32 @@
+body
+{
+    background-color:  powderblue;
+}
+.container
+{
+    background-color: white;
+    width: 60%;
+}
+#wrapper {
+  width: 80%;
+  margin: 10px auto;
+  padding: 50px;
+ 
+}
+form {
+  margin: 10px auto;
+}
+
+
+.textInput:focus {
+  outline: none;
+}
+.btnx {
+  width: 98.6%;
+  border: none;
+  margin-top: 5px;
+  color: white;
+  background-color: #3598dc;
+  border-radius: 5px;
+  padding: 12px;
+}

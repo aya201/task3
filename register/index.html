@@ -1,0 +1,60 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Registration</title>
+    
+    </head>
+    <body>
+    <div class="container">
+      <div id="wrapper">
+   <form method="POST" action="index.php" onsubmit="return Validate()" name="vform" >
+       <h1 class="text-center">Registration</h1>
+      <p>Register with</p>
+       <div class="text-center social-btn my-4">
+            <a href="#" class="btn btn-primary"><i class="fab fa-facebook"></i>&nbsp; Facebook</a>
+            <a href="#" class="btn btn-info"><i class="fab fa-twitter"></i>&nbsp; Twitter</a>
+			<a href="#" class="btn btn-danger"><i class="fab fa-google"></i>&nbsp; Google</a>
+        </div>
+       <hr>
+      <p>Or with your email</p>
+   	<div id="username_div">
+   	 
+   	  <input type="text" name="user-name" class="form-control" placeholder="User Name" required="required" >
+      
+   	  <div id="name_error"></div>
+   	</div>
+   	<div id="email_div">
+   	<br>
+   	  <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+   	  <div id="email_error"></div>
+   	</div>
+   	<div id="password_div">
+   	   <br>
+   	  <input type="password" name="password" class="form-control" placeholder="Password" required="required">
+   	</div>
+   	<div id="pass_confirm_div">
+   	  <br>
+   	   <input type="password" name="repeat-password" class="form-control" placeholder="Repeat Password" required="required">
+   	   <div id="password_error"></div>
+   	</div>
+       <label class="checkbox-inline my-3"><input type="checkbox" required="required"> I accept the <a href="#">Terms and Conditions</a> &amp; <a href="#">Privacy Policy</a></label>
+   	<div>
+   	<input type="submit" name="sign-up" value="CREATE YOUR ACCOUNT" class="btnx">
+   	</div>
+   </form>
+          <p class="text-center">Are you a member? <a href="#">Sign in here</a></p>
+  </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/min.js"></script>    
+    </body>
+</html>

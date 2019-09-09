@@ -1,0 +1,139 @@
+body
+{
+    background-color: powderblue;
+}
+.container
+{
+    background-color: white;
+    width: 60%;
+    height: 90%;
+}
+.login-form
+{
+  
+    width: 100%;
+    margin: auto;
+}
+
+form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #0a39ce;
+}
+
+.form__element {
+    margin: 0 0 1em 0;
+}
+
+.form__element-inner {
+    position: relative;
+}
+
+
+
+.form__input {
+    width: 100%;
+    padding: 0.4em;
+    font-size: 1em;
+    border: 1px solid #ced4da;
+    color: #495057;
+   
+}
+
+
+
+.form__hint {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.form__hint:before {
+    content: "\1F6C8";
+    font-size: 1.2em;
+    margin: 0 0.2em 0 0;
+}
+label
+{
+    float: right;
+}
+
+.form__submit {
+    background: #3598dc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.4em;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.form__error {
+    margin: 0;
+    padding: 0.4em;
+    color: #b0141d;
+    background-color: #fbd8d8;
+}
+
+.has-error input {
+    border: 2px solid #b0141d;
+}
+
+
+
+.message {
+  padding: 20px;
+  margin: 0;
+  position: relative;
+  transition: all 240ms ease-out;
+}
+.message .message__text {
+  margin: 0;
+}
+.message .message__list {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+.message .messsage__listtext {
+  padding: .1em 0;
+}
+.message .message__close {
+  background: transparent url(https://cdn.glitch.com/70059002-dd2b-444a-ad86-1bfa349ba162%2Fclose.svg?1518508157151) no-repeat 0 0;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  transition: all 140ms ease-out;
+}
+.message .message__close .message__closetext {
+  font-size: 0;
+  height: 1px;
+  overflow: hidden;
+  display: block;
+}
+.message .message__close:hover, .message .message__close:focus {
+  transform: scale(1.2);
+}
+.message.message--info {
+  color: #00529B;
+  background: #BDE5F8;
+}
+.message.message--success {
+  color: #427110;
+  background: #daf1b4;
+}
+.message.message--warning {
+  color: #825005;
+  background: #FEEFB3;
+}
+.message.message--error {
+  color: #b0141d;
+  background: #fbd8d8;
+}
